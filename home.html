@@ -7,6 +7,12 @@
     <title>Desafio 010</title>
     
     <style>
+
+    @font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf);
+        }
+
     body {
         background-color: #84E1AD;
       } 
@@ -14,9 +20,7 @@
     header {
         background-image: linear-gradient(to top, rgba(0, 100, 0, 0.611), rgba(0, 128, 0, 0.562), rgb(103, 238, 103));
         margin: -20px -9px -19px -9px;
-        
 
-        
     }
 
     h1 {
@@ -28,10 +32,8 @@
     p.subtitulo {
         color: white;
         text-align: center;
-        margin-top: -30px;
-        margin-left: 1px;
-        margin-bottom: 1px;
-        margin-right: 1px;
+        margin: -30px 1px 1px 1px;
+        padding: 10px;
       }
 
     nav a {
@@ -39,7 +41,7 @@
         color: white;
         text-decoration: none;
         font-size: small;
-            
+                    
         }  
 
     a:hover {
@@ -48,11 +50,48 @@
 
     main {
         background-color: white;
+        margin: 20px;
+        width: auto;
       }
 
+    h2 {
+        padding: 10px;
+        font-family: idroid;
+        font-size: medium;
+        color: green;
+        background-image: linear-gradient(to right, rgba(0, 128, 0, 0.247), rgba(144, 238, 144, 0.104));
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 5px;
+        padding: 10px;
 
+    }
+
+    h3 {
+        font-family: idroid;
+        font-size: small;
+        color: green;
+        text-indent: 10px;
+        background-image: linear-gradient(to right, rgba(0, 128, 0, 0.247), rgba(144, 238, 144, 0.104));
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    p {
+        text-indent: 15px;
+    }
+
+    img {
+        width: 100%;
+        /* widht 100% torna a imagem auto ajustável (responsiva) */
+        border-radius: 3%;
+
+    }
 
     </style>
+    
 
 </head>
 <body>
@@ -83,7 +122,7 @@
         <section>
             <h3>A PRIMEIRA VERSÃO</h3>
             <p>A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado Dan Morrill. Ele conta que abriu o Inkscape (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.</p>
-            <img src="" alt="">
+            <img src="imagens/irina-blok.jpg" alt="Irina Block">
             <p>Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os Dandroids.</p>
         </section>    
 
