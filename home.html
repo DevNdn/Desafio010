@@ -52,6 +52,7 @@
         background-color: white;
         margin: 20px;
         width: auto;
+        padding-bottom: 10px;
       }
 
     h2 {
@@ -90,16 +91,21 @@
         width: 100%;
         /* widht 100% torna a imagem auto ajustável (responsiva) */
         border-radius: 3%;
+        max-width: 700px;
+        text-align: center;
+        display: block;
+        margin: auto;
 
     }
 
     .imgdroid {
         margin: auto;
         height: 50%;
-        width: 50%;
+        width: 100%;
         display: block;
         margin-left: auto;
         margin-right: auto;
+        max-width: max-content;
     }
 
     .video {
@@ -114,6 +120,56 @@
     padding: 10px;
             }
 
+    h4 {
+        background-color: rgba(3, 101, 3, 0.392);
+        color: white;
+        font-weight: bolder;
+        border-top: 17px ;
+        border-radius: 17px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        padding: 10px;
+
+    }
+    
+    section#tabelafinal {
+        background-color: #84e1ac74;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-top: 17px;
+        
+        border-radius: 17px;
+        padding-bottom: 5px;
+        
+
+    }   
+    
+    ul {
+        display: inline-block;
+    }
+
+    .tab1 {
+        display: inline-block;
+        margin-right: 230px;
+    }
+
+    .tab2 {
+        display: inline-block;
+    }
+
+    footer {
+        background-color: rgb(5, 59, 5);
+        margin: auto;
+        
+    }
+
+   .rodape {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+   }
 
     </style>
     
@@ -164,8 +220,45 @@
             <iframe width="560" height="315" src="https://www.youtube.com/embed/l2UDgpLz20M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </section>
 
+        <section id="tabelafinal">
+            <h4>Quer aprender mais?</h4>
+            <p>Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce, em ordem alfabética a partir da versão 1.5 até a 9.0.</p>
+
+            <ul>
+                <aside class="tab1"><li>1.5 - Cupcake</li>
+                <li>1.6 - Donut</li>
+                <li>3.0 - Eclair</li>
+                <li>2.2 - Froyo</li>
+                <li>2.3 - Gingerbread</li>
+                <li>3.0 - Honeycomb</li>
+                <li>4.0 - Ice Cream Sandwich</li>
+                </aside>
+
+                <aside class="tab2">
+                <li>4.1 - Jelly Bean</li>
+                <li>4.4 - KitKat</li>
+                <li>5.0 - Lolipop</li>
+                <li>6.0 - Marshmallow</li>
+                <li>7.0 - Nougat</li>
+                <li>8.0 - Oreo</li>
+                <li>9.0 - Pie </li>
+               </aside>
+            </ul>
+            <p>Infelizmente, o Android Q não existiu, pois o Google resolveu pôr fim a essa divertida prática e começou a usar numerações, o que deu origem ao Android 10.
+            </p>
+            <p>Acesse aqui o site Android History para conhecer a sequência das versões "adocicadas" e o que cada uma trouxe para o sistema Android.
+            </p>
+        </section>
+
+        <p>Então é isso! Espero que você tenha gostado do nosso artigo com essa curiosidade sobre o sistema Android e seu simpático mascote.
+        </p>
+
     </main>
 
-    <footer></footer>
+    <footer>
+        <section>
+            <p class="rodape">Site criado por Fernando Alves para o CursoemVideo.</p>
+        </section>
+    </footer>
 </body>
 </html>
