@@ -4,11 +4,11 @@
 @font-face {
     font-family: idroid;
     src: url(fontes/idroid.otf);
-        }
+    }
 
     body {
         background-color: #84E1AD;
-      } 
+    } 
       
     header {
         background-image: linear-gradient(to top, rgba(0, 100, 0, 0.611), rgba(0, 128, 0, 0.562), rgb(103, 238, 103));
@@ -20,14 +20,14 @@
         color: white;
         text-align: center;
         padding: 15px;
-      }
+    }
 
     p.subtitulo {
         color: white;
         text-align: center;
         margin: -30px 1px 1px 1px;
         padding: 10px;
-      }
+    }
 
     nav a {
         margin-left: 20px;
@@ -35,7 +35,7 @@
         text-decoration: none;
         font-size: medium;
                  
-        }  
+    }  
 
     a:hover {
         background-color: rgba(1, 97, 1, 0.704);
@@ -58,7 +58,7 @@
         margin: 20px;
         width: auto;
         padding-bottom: 10px;
-      }
+    }
 
     h2 {
         padding: 10px;
@@ -100,7 +100,7 @@
         height: 80%;
         max-height: 80%;
         min-height: 20%;
-        /* widht 100% torna a imagem auto ajustável (responsiva) */
+        
         border-radius: 3%;
         max-width: 700px;
         text-align: center;
@@ -141,7 +141,7 @@
     height: 50%;
     
     z-index: -100;
-            }
+    }
 
     h4 {
         background-color: rgba(3, 101, 3, 0.392);
@@ -170,7 +170,7 @@
     ul {
         display: inline-block;
               
-        }
+    }
 
     
 
@@ -189,11 +189,11 @@
         
     }
 
-   .rodape {
+    .rodape {
     font-family: 'Courier New', Courier, monospace;
     font-size: 10px;
     color: white;
     text-align: center;
     padding: 5px;
-   }
+    }
     
