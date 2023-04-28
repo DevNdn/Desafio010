@@ -11,6 +11,8 @@
         --cor1: white;
         --cor2: linear-gradient(to top, rgba(0, 100, 0, 0.611), rgba(0, 128, 0, 0.562), rgb(103, 238, 103));
         --cor3: rgba(1, 97, 1, 0.704);
+
+        
     }
 
     body {
@@ -28,6 +30,7 @@
         color: var(--cor1);
         text-align: center;
         padding: 15px;
+        text-shadow: 6px 4px 2px rgba(0, 0, 0, 0.393);
         
     }
 
@@ -36,6 +39,8 @@
         text-align: center;
         margin: -30px 1px 1px 1px;
         padding: 10px;
+        text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.393);
+        
     }
 
     nav a {
@@ -43,6 +48,7 @@
         color: white;
         text-decoration: none;
         font-size: medium;
+        text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.393);
                  
     }  
 
@@ -57,7 +63,7 @@
         padding-bottom: -3px;
         border-radius: 3px;
         font-size: medium;
-
+        text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.393);
         box-shadow: 2px 0px 4px rgba(0, 0, 0, 0.2);   
         
     }    
@@ -67,6 +73,7 @@
         margin: 20px;
         width: auto;
         padding-bottom: 10px;
+        text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.303);
     }
 
     h2 {
@@ -79,6 +86,7 @@
         margin-right: 10px;
         border-radius: 5px;
         padding: 10px;
+        text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.303);
 
     }
 
@@ -92,6 +100,7 @@
         margin-right: 10px;
         border-radius: 5px;
         padding: 10px;
+        text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.303);
     }
 
     p {
@@ -100,6 +109,8 @@
         text-align: justify;
         margin-left: 10px;
         margin-right: 10px;
+        line-height: 2em;
+        text-shadow: 0px 0px 2px rgba(69, 66, 66, 0.393);
     }
 
     img {
@@ -170,6 +181,7 @@
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 0px;
         padding: 10px;
+        text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.148);
 
     }
     
@@ -190,15 +202,15 @@
               
     }
 
-    
-
     .tab1 {
         display: inline-block;
         margin-right: 230px;
+        text-shadow: 1px 0px 2px rgba(69, 66, 66, 0.393);
     }
 
     .tab2 {
         display: inline-block;
+        text-shadow: 1px 0px 2px rgba(69, 66, 66, 0.393);
     }
 
     footer {
