@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 @font-face {
     font-family: idroid;
@@ -11,8 +12,11 @@
     --cor1: white;
     --cor2: linear-gradient(to top, rgba(0, 100, 0, 0.611), rgba(0, 128, 0, 0.562), rgb(103, 238, 103));
     --cor3: rgba(1, 97, 1, 0.704);
+    --cor4: #3ddc84;
+    --cor5: #198547;
 
-    
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonde-destaque: 'Bebas Neue', cursive;
 }
 
 body {
@@ -69,7 +73,6 @@ a.links {
     
 }  
 
-
 main {
     background-color: white;
     margin: 20px;
@@ -106,7 +109,7 @@ h3 {
 }
 
 p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-padrao);
     text-indent: 15px;
     text-align: justify;
     margin-left: 10px;
