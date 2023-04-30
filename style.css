@@ -131,7 +131,7 @@ p {
 
 img {
     width: 80%;
-    max-width: 80%;
+    max-width: 350px;
     min-width: 20%;
 
     height: 80%;
@@ -139,14 +139,19 @@ img {
     min-height: 20%;
     
     border-radius: 3%;
-    max-width: 700px;
+    
     text-align: center;
     display: block;
     margin: auto;
 
 }
 
+picture > .imgdroid {
+    max-width: 700px;
+}
+
 picture > .irina {
+    max-width: 700px;
     box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.288);
 }
 
