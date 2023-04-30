@@ -46,11 +46,22 @@ header > p {
     font-family: var(--font-padrao);
     color: var(--cor1);
     text-align: center;
-    margin: -9px 0px 15px 0px;
-    padding-bottom: 5px;
+    margin: -5px 0px 15px 0px;
+    padding-bottom: 10px;
     text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.393);
+    line-height: 1.2rem;
 
-    
+}
+
+p {
+    font-family: var(--font-padrao);
+    text-indent: 15px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 2em;
+    text-shadow: 0px 0px 2px rgba(69, 66, 66, 0.393);
+    line-height: 2rem;
 }
 
 a.links {
@@ -61,6 +72,7 @@ a.links {
     text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.393);
                 
 }  
+
 
 .links:hover {
     background-color: var(--cor3);
@@ -119,15 +131,6 @@ h3 {
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.315);
 }
 
-p {
-    font-family: var(--font-padrao);
-    text-indent: 15px;
-    text-align: justify;
-    margin-left: 10px;
-    margin-right: 10px;
-    line-height: 2em;
-    text-shadow: 0px 0px 2px rgba(69, 66, 66, 0.393);
-}
 
 img {
     width: 80%;
