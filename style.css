@@ -17,6 +17,8 @@
 
     --font-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonde-destaque: 'Bebas Neue', cursive;
+
+    --boxshadow-titulos: box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.315);
 }
 
 body {
@@ -100,6 +102,7 @@ h2 {
     border-radius: 5px;
     padding: 10px;
     text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.303);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.315);
 
 }
 
@@ -114,6 +117,7 @@ h3 {
     border-radius: 5px;
     padding: 10px;
     text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.303);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.315);
 }
 
 p {
@@ -141,6 +145,8 @@ img {
     display: block;
     margin: auto;
 
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.315);
+
 }
 
 .imgdroid {
@@ -151,6 +157,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     max-width: max-content;
+    box-shadow: none;
 }
 
 .video {
@@ -161,6 +168,7 @@ img {
     margin-right: 0px;
     margin-bottom: 15px;
     padding-bottom: 59%;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.315);
 
 }
 
@@ -193,8 +201,8 @@ section#tabelafinal {
     
     border-radius: 17px;
     padding-bottom: 5px;
-    
 
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.315);
 }   
 
 ul {
