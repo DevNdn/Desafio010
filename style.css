@@ -26,7 +26,7 @@ body {
     
 header {
     background-image: var(--cor2);
-    margin: -20px -9px -19px -9px;
+    margin: -27px -9px -19px -9px;
     padding-bottom: 4px;
     box-shadow: 0px 3px 2px 1px rgba(0, 0, 0, 0.281);
 }
@@ -176,11 +176,11 @@ picture > .irina {
     position: relative;
     background-color: green;
     height: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 15px;
+    border-radius: 5px;
+    margin: 0px 10px 15px 10px;
     padding-bottom: 59%;
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.315);
+    
 
 }
 
@@ -190,6 +190,7 @@ picture > .irina {
     left: 5%;
     width: 90%;
     height: 90%;
+    
 }
 
 h4 {
